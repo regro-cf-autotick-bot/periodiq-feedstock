@@ -1,5 +1,5 @@
 {% set name = "periodiq" %}
-{% set version = "0.12.1" %}
+{% set version = "0.13.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b849b04c47e3daa22fdf9fad87804255ff84aa9831f5b690fa1374d254a77cf9
+  sha256: ecd83d7614bb9e019aa2718b63c4ffe0a6c77fa0d49f33fd90c309982ddcf7cb
 
 build:
   noarch: python
